@@ -3840,6 +3840,19 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
+react-swipe-to-reveal-actions@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-swipe-to-reveal-actions/-/react-swipe-to-reveal-actions-1.1.1.tgz#354ef850fc57e927dfb06e320030b899780c6378"
+  integrity sha512-HcZ/triK0aRMBzHa3OpYr2OeZWG1c00Ybt6azzGXNnArNXuirDf2GmLxoB08/g5XjxwJmsSxm7TpbFSXZEI8Dw==
+  dependencies:
+    react "^18.2.0"
+    react-swipeable "^7.0.0"
+
+react-swipeable@^7.0.0:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/react-swipeable/-/react-swipeable-7.0.1.tgz#cd299f5986c5e4a7ee979839658c228f660e1e0c"
+  integrity sha512-RKB17JdQzvECfnVj9yDZsiYn3vH0eyva/ZbrCZXZR0qp66PBRhtg4F9yJcJTWYT5Adadi+x4NoG53BxKHwIYLQ==
+
 react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"

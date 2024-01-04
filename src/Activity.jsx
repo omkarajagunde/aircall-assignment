@@ -6,8 +6,7 @@ import Indirection from "./res/Indirection.jsx";
 import CountUp from "react-countup";
 
 function Activity() {
-	const { globalStore } = useContext(GlobalStore);
-	console.log("globalStore -- ", globalStore);
+	const { globalStore, setActivityDetail } = useContext(GlobalStore);
 
 	const getCalls = () => {
 		let calls = [];
@@ -22,7 +21,10 @@ function Activity() {
 		});
 
 		return calls.map((call) => (
-			<div className="via">
+			<div
+				className="via"
+				onClick={() => setActivityDetail(call)}
+			>
 				<div>via</div> <div className="via--title">{call.via}</div>
 				<div className="via--tags">
 					<Inbound />
